@@ -2,5 +2,7 @@ node_modules/
 .pnpm-store/
 coverage/
 *.tsbuildinfo
-lib/*.map
 .DS_Store
+# Build output: produced per-platform by `dsh-manage` (lib/.dsh-build-target
+# records the target); never committed.
+lib/
